@@ -1,0 +1,276 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #d0f0c0;
+}
+
+body {
+  background-color: #121b12;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #183218;
+  padding: 12px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-menu {
+  background: #2c4a2c;
+  border: 2px solid transparent;
+  color: #a7dba7;
+  font-weight: 600;
+  padding: 10px 22px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.btn-menu:hover {
+  background-color: #4f914f;
+  border-color: #a7dba7;
+  color: #e6f2e6;
+}
+
+.btn-menu.active {
+  background-color: #5ea45e;
+  border-color: #d0f0c0;
+  color: #fff;
+  box-shadow: 0 0 10px #7ec77e;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 1080px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.section {
+  display: none;
+  animation: fadeIn 0.7s ease forwards;
+  background-color: #223322; /* verde escuro */
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 100, 0, 0.6);
+  color: #c8e6c8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section.active {
+  display: block;
+}
+
+h1 {
+  color: #b6e2b6;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0 0 6px #3e8e3e;
+}
+
+#map h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4a7c4a;
+  padding-bottom: 10px;
+}
+
+#map p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-container figure {
+  width: 280px;
+  background-color: #254325;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #4b904b;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-container figure:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #7ec77e;
+}
+
+.gallery-container img.gallery-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #4f914f;
+}
+
+.gallery-container figcaption {
+  padding: 12px 10px;
+  font-size: 0.9rem;
+  color: #c0e0c0;
+  text-align: center;
+}
+
+/* Map */
+.map-img {
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #498249;
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+.map-img:hover {
+  transform: scale(1.05);
+}
+
+/* Listas */
+ul {
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Textos dentro das sections */
+section p, section article p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+  color: #b9d4b9;
+  margin-bottom: 15px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(18, 27, 18, 0.95);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 15px;
+  box-shadow: 0 0 30px #7ec77e;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+/* styles.css */
+
+.map-container {
+  max-width: 1000px;  /* limite máximo para não ficar gigantesco em telas grandes */
+  margin: 20px auto;  /* centralizar horizontalmente e espaçamento vertical */
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 600px;  /* maior altura para destaque */
+  border: 2px solid #3a6ea5;  /* borda azul para combinar com o tema */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+#modal-caption {
+  margin: 15px auto;
+  text-align: center;
+  color: #c8e6c9;
+  font-size: 1.1rem;
+  max-width: 90%;
+}
+
+.modal-close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  color: #c0e0c0;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+
+.modal-close:hover {
+  color: #7ec77e;
+}
+
+/* Animação fadeIn */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsividade */
+@media (max-width: 700px) {
+  .gallery-container figure {
+    width: 100%;
+  }
+
+  header, main {
+    padding: 0 10px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .btn-menu {
+    flex: 1 1 45%;
+    padding: 10px 0;
+  }
+}
