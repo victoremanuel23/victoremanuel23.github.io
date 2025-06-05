@@ -35,7 +35,7 @@ Este repositório contém informações, imagens, mapas e dados relevantes sobre
 - Mapas e rotas de acesso
 - Informações sobre fauna e flora locais
 - Dicas para visitantes e cuidados ambientais
-- Galeria de fotos e vídeos
+- Galeria de fotos 
 
 ---
 
