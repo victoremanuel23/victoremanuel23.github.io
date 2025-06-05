@@ -10,11 +10,11 @@ Projeto dedicado a explorar e documentar as cavernas localizadas na região do P
 
 
 
-![Uploading Captura de tela 2025-06-05 203755.png…]()
 
 
 
 
+![Captura de tela 2025-06-05 203714](https://github.com/user-attachments/assets/7e22a9d6-cc6f-40e3-b75c-021c0c6f784a)
 
 
 
