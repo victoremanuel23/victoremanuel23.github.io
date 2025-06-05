@@ -2,7 +2,28 @@
 
 Projeto dedicado a explorar e documentar as cavernas localizadas na região do Peruaçu, com foco em aspectos geográficos, ambientais e turísticos.
 
+
+
+
+
+
+
+
+
 ![Uploading Captura de tela 2025-06-05 203755.png…]()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Sobre o Projeto
