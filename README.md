@@ -1,27 +1,36 @@
-# Cavernas do Peruacu
+# Cavernas do Peruaçu
 
-Este projeto é dedicado ao estudo, documentação e/ou desenvolvimento relacionado às cavernas da região do Peruacu.
+Projeto dedicado a explorar e documentar as cavernas localizadas na região do Peruaçu, com foco em aspectos geográficos, ambientais e turísticos.
 
-## Sobre
+![Uploading Captura de tela 2025-06-05 203755.png…]()
 
-Aqui você pode descrever o objetivo principal do projeto, por exemplo:
 
-- Pesquisa científica sobre formações geológicas
-- Guia turístico das cavernas
-- Sistema de gestão de dados ou monitoramento das cavernas
+## Sobre o Projeto
 
-## Estrutura do Projeto
+Este repositório contém informações, imagens, mapas e dados relevantes sobre as cavernas do Peruaçu, uma área de grande importância natural e cultural no Brasil. O objetivo é fornecer um material organizado para pesquisadores, turistas e entusiastas da natureza.
 
-- `docs/` — Documentação e informações técnicas
-- `src/` — Código-fonte do projeto
-- `data/` — Dados coletados ou usados no projeto
+---
 
-## Como usar
+## Funcionalidades / Conteúdo
 
-Explique aqui como rodar o projeto, instalar dependências ou acessar os dados.
+- Documentação detalhada das principais cavernas
+- Mapas e rotas de acesso
+- Informações sobre fauna e flora locais
+- Dicas para visitantes e cuidados ambientais
+- Galeria de fotos e vídeos
 
-```bash
-# Exemplo para clonar o repositório
-git clone https://github.com/victoremanuel23/cavernas-do-peruacu.git
+---
 
-# Comandos para rodar ou usar o projeto (se houver)
+## Tecnologias Utilizadas
+
+- HTML5 e CSS3 para a estrutura e estilo das páginas
+- JavaScript para interatividade (se aplicável)
+- Ferramentas de mapeamento e geolocalização (se aplicável)
+
+---
+
+## Como utilizar
+
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/victoremanuel23/cavernas-do-peruacu.git
